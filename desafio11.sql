@@ -9,4 +9,5 @@ SELECT
     ELSE cancao
   END AS novo_nome
 FROM SpotifyClone.cancao
-WHERE cancao RLIKE "Streets|Her Own|Inner Fire|Silly|Circus";
+WHERE cancao RLIKE "Streets|Her Own|Inner Fire|Silly|Circus"
+ORDER BY nome_musica;
